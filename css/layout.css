@@ -1,0 +1,28 @@
+/*Looks for elements with class video*/
+.video {
+	margin-bottom: 50px;
+	float: left;
+	width: 33%;
+}
+
+/*Looks for img elements under elements with class video*/
+.video img {
+	width: 100%;
+}	
+
+/**/
+.video p {
+	padding: 10px;
+	background-color: #EFEFEF;
+}
+
+.clr {
+	/*Cant sit next to floats on left and right so will be below floats*/
+	clear: both;
+}
+
+p.description {
+	background-color: #AABBCC;
+	padding: 10px;
+	border: 10px dotted red;
+}
